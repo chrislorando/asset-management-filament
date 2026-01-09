@@ -1,6 +1,8 @@
 # Asset Management App
 
-A comprehensive Laravel application for managing assets, maintenance tickets, projects, and employee documentation with modern UI built with Filament.
+**⚠️ DRAFT VERSION - WORK IN PROGRESS**
+
+A comprehensive Laravel application for managing assets, maintenance tickets, projects, and employee documentation with modern UI built with Filament. This application is currently in development and may contain incomplete features or bugs.
 
 ## Features
 
@@ -245,13 +247,46 @@ Add the Laravel scheduler to your crontab:
 
 For support and questions, please create an issue in the repository.
 
+## Development Status
+
+This project is currently in **DRAFT** status. The following features are implemented but may still have issues:
+
+- ✅ Asset Management (Basic CRUD)
+- ✅ Maintenance Tickets (Status tracking)
+- ✅ Project Management (Basic functionality)
+- ✅ Employee Management (Basic CRUD)
+- ✅ Document Management (Upload to S3)
+- ⚠️ Authentication (Basic setup, needs refinement)
+- ❌ Role-based Access Control (Not implemented)
+- ❌ Reporting & Analytics (Not implemented)
+- ❌ Email Notifications (Not implemented)
+- ❌ API Endpoints (Not implemented)
+
+## Known Issues
+
+- Some forms may have validation issues
+- File upload may need additional security measures
+- Database migrations may need further refinement
+- Test coverage is incomplete
+- Performance optimization needed
+
+## Roadmap
+
+- [ ] Complete role-based access control
+- [ ] Add email notifications
+- [ ] Implement reporting dashboard
+- [ ] Add API endpoints
+- [ ] Improve test coverage
+- [ ] Performance optimization
+- [ ] Security audit
+- [ ] Multi-language support
+- [ ] Mobile app development
+
 ## Changelog
 
-### v1.0.0
-- Initial release
-- Asset management functionality
-- Maintenance ticket system
-- Project management
-- Employee management with documents
-- Filament admin panel
+### v0.1.0 (DRAFT)
+- Initial draft version
+- Basic CRUD operations for all main entities
+- Filament admin panel setup
 - S3 file storage integration
+- Basic asset and maintenance ticket workflows
